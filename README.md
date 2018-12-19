@@ -10,3 +10,11 @@ Given the videos of public speaker, following steps were taken to create the dat
 3. Now, I made windows of size 3 seconds with the overlapping of 50%. 
 4. The dataset is now augmented. Augmentation is done by adding white noise and rolling the sound.
 5. Now, various models like SVM, Neural Network, etc are being trained and tested for the accuracy, false positives and false negatives. 
+
+
+The files in the github repository have following functions:
+1.	trainingSoundCreator.py : Extracting the audio from videos of public speaker, using Kaldi to extract text from the audio and forming windows of size 3 seconds with 50% overlap.
+2.	dataAugmentation.ipynb : Augmenting the data by adding white noise and rolling the sound.
+3.	classification.pynb: To try different models for training.
+4.	umm_classification : Using Neural Networks to just classify the “umm” and “aah” disfluencies.
+5.	adding white noise and rolling the sound.
